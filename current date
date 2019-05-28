@@ -1,0 +1,4 @@
+  Calendar calendar = Calendar.getInstance();
+    SimpleDateFormat mdformat = new SimpleDateFormat("yyyy-MM-dd");
+    strDate =mdformat.format(calendar.getTime());
+   
